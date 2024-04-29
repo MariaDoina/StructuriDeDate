@@ -1,0 +1,9 @@
+    elem_creat->urmator = element_dat->urmator;:
+        Această linie stabilește legătura între noul element (elem_creat) și restul listei.
+        Folosind element_dat->urmator, obținem următorul element după element_dat. De exemplu, dacă element_dat este al doilea element din listă, element_dat->urmator ar fi al treilea element.
+        Astfel, elem_creat->urmator este setat să fie următorul element după element_dat, menținând astfel integritatea listei. Asta înseamnă că elem_creat va fi acum înserat în lista între element_dat și următorul element al acestuia.
+
+    element_dat->urmator = elem_creat;:
+        Această linie actualizează legătura din element_dat către elem_creat, astfel încât elem_creat să devină următorul element după element_dat.
+        Prin această linie, efectiv inserăm elem_creat în lista, deoarece acum element_dat are un nou următor, și anume elem_creat.
+        În esență, această linie modifică legătura urmator a lui element_dat, astfel încât să pointeze către elem_creat, făcându-l să fie următorul element în lista după element_dat.
